@@ -1,0 +1,32 @@
+body {
+    color: #222;
+    font-family: Arial, sans-serif;
+  }
+
+nav a {
+    text-decoration: none;
+    color: #222;
+}
+
+.navfull {
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+}
+
+.navleftitem {
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.navrightitem {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.navitem {
+    margin: 10px;
+}
