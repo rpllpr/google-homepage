@@ -43,18 +43,33 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
-    display: flex;
-    font-size: 13px;
+    font-size: 15px;
     border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+    background-color: #f3f3f3;  
+}
+
+.footerlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footerleftitem {
+    float: left;
+    margin: 10px;
+}
+
+.footerrightitem {
+    float: right;
+    display: flex;
+}
+
+.footerrightinditem {
+    margin: 10px;
 }
 
 footer a {
     text-decoration: none;
     color: gray;    
-}
-
-.footeritem {
-    margin: 10px;
-    font-size: 15px;
 }
