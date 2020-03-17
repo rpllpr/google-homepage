@@ -8,25 +8,32 @@ nav a {
     color: #222;
 }
 
-.navfull {
-    display: flex;
-    flex-direction: row;
-    font-size: 13px;
-}
-
 .navleftitem {
+    position: absolute;
     display: flex;
-    justify-content: flex-start;
-
-
 }
 
 .navrightitem {
     display: flex;
     justify-content: flex-end;
-
+    float: right;
 }
 
 .navitem {
     margin: 10px;
+    font-size: 13px;
+}
+
+.mainspacer {
+    height: 130px;
+    width: 100%;
+}
+
+.centerstuff {
+    text-align: center;
+}
+
+.buttonstyles {
+    display: flex;
+    justify-content: center;
 }
