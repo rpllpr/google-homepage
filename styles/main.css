@@ -14,19 +14,27 @@ nav a {
 .navleftitem {
     position: absolute;
     display: flex;
-    margin: 10px 20px 10px 20px;
+    margin: 10px 20px 10px 15px;
 }
 
 .navrightitem {
     display: flex;
     justify-content: flex-end;
     float: right;
-    margin: 10px 20px 10px 20px;
+    margin: 10px 20px 10px 15px;
 }
 
 .navitem {
     padding: 10px;
     font-size: 13px;
+}
+
+.navitemapps {
+    padding: 10px 10px 10px 20px;
+    background-image: url('../images/i1_1967ca6a.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    opacity: 0.6;
 }
 
 .navitemsignin {
