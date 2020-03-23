@@ -41,7 +41,7 @@ nav a {
 
 .mainspacer {
     position: relative;
-    height: 100px;
+    height: 140px;
     width: 100%;
 }
 
@@ -86,7 +86,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 */
 
 .buttonstyles {
-    margin-top: 1em;
+    margin-top: 2em;
     display: flex;
     justify-content: center;
 
@@ -94,6 +94,20 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 .buttonitems {
     padding: 10px;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    color: #585858;
+}
+
+button:hover {
+    border: 1px solid rgb(201, 194, 194);
+    color:  black;
 }
 
 footer {
